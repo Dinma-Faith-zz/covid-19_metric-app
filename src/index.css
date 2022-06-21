@@ -1,4 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 body {
   margin: 0;
-  padding: 0;
+  font-family: 'Lato', 'Gill Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e70983;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav1 {
+  background-color: #fd33a2;
+  padding: 30px;
+  color: white;
+}
+
+.nav2 {
+  /* background-color: #e70983; */
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  color: white;
+  text-align: center;
+}
+
+/* .header2 {
+  margin: auto;
+} */
+
+.covidlogo {
+  /* width: 100px; */
+  height: 100px;
+}
+
+.goBack {
+  width: 25px;
+  height: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.header1 {
+  margin: 0;
 }
