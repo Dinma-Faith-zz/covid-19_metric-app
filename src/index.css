@@ -61,12 +61,16 @@ h1 {
 .form {
   display: flex;
   align-items: center;
+
   /* justify-content: center; */
   gap: 10px;
   padding-left: 3%;
+
   /* border-top: 2px solid white; */
   border-bottom: 1px solid white;
+
   /* padding: 25px; */
+
   /* background-color: lightblue; */
 }
 
@@ -84,9 +88,11 @@ h1 {
 
 .input-search {
   /* border: none; */
+
   /* background-color: transparent; */
   height: 28px;
   padding: 1%;
+
   /* border-radius: 10%; */
   margin-bottom: 10%;
 }
@@ -160,8 +166,4 @@ ul li {
 
 .cases {
   padding-right: 10%;
-}
-
-@media screen and (min-width: 992px) {
-  
 }
