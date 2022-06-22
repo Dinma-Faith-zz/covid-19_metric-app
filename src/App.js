@@ -1,24 +1,22 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
-// import { Provider } from 'react-redux';
+import { Provider } from 'react-redux';
 import Nav from './Components/Navigation/nav';
-// import store from './Redux/store';
-import HomePage from './Components/HomePage';
-import DetailsPage from './Components/DetailsPage';
+import store from './Redux/store';
+import CountryDetail from './Components/pages/DetailsPage';
+import HomePage from './Components/pages/HomePage';
 
 function App() {
   return (
-    <div>
-      {/* <Provider> */}
+    <Provider store={store}>
       <Router>
         <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/DetailsPage" element={<DetailsPage />} />
+          <Route path="/country/:name" element={<CountryDetail />} />
         </Routes>
       </Router>
-      {/* </Provider> */}
-    </div>
+    </Provider>
   );
 }
 

@@ -1,12 +1,17 @@
-// import { combineReducers, legacy_createStore as createStore, applyMiddleware } from 'redux';
-// import thunk from 'redux-thunk';
-// import DataReducer from './DataReducer/Reducer';
+import { combineReducers, legacy_createStore as createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import logger from 'redux-logger';
+import { StatsReducer } from './reducer';
 
-// const rootReducer = combineReducers({
-//   data : DataReducer,
-// });
+const reducers = combineReducers({
+  details: StatsReducer,
+});
 
-// const store = createStore(rootReducer,
-//   applyMiddleware(thunk));
+const middlewares = [thunk, logger];
 
-// export default store;
+const store = createStore(
+  reducers,
+  applyMiddleware(...middlewares),
+);
+
+export default store;
