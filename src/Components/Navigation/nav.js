@@ -6,7 +6,7 @@ import { AiOutlineSetting } from 'react-icons/ai';
 import Covid from '../../images/Covid.jpg';
 
 export default function Nav() {
-  const arrowBack = <TiArrowBackOutline className="goBack" />;
+  const arrowBack = <TiArrowBackOutline className="arrowBack" />;
   const location = useLocation();
   const header = 'Corona Virus Checker';
   const returnToHome = location.pathname.includes('country') ? arrowBack : '';
