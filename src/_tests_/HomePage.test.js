@@ -13,7 +13,7 @@ describe('Render HomePage component', () => {
           <Provider store={store}>
             <HomePage />
           </Provider>
-        </Router>
+        </Router>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
