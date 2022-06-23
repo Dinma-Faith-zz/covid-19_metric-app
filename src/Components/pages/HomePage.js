@@ -48,7 +48,7 @@ function HomePage() {
                 <h1 className="countryName">
                   {country.country}
                 </h1>
-                <div>
+                <div className="data">
                   <h2 className="population">
                     Population:
                   </h2>

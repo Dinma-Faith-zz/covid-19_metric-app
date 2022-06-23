@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import { BsMic } from 'react-icons/bs';
 import { AiOutlineSetting } from 'react-icons/ai';
-import covid from '../../images/covid.jpg';
+import Covid from '../../images/Covid.jpg';
 
 export default function Nav() {
   const arrowBack = <TiArrowBackOutline className="goBack" />;
@@ -25,7 +25,7 @@ export default function Nav() {
       </div>
 
       <div className="nav2">
-        <img src={covid} alt="logo" className="covidlogo" />
+        <img src={Covid} alt="logo" className="covidlogo" />
         <h1 className="header2">
           {header}
         </h1>
