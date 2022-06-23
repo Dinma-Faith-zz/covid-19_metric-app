@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import store from '../Redux/store';
 import HomePage from '../Components/pages/HomePage';
 
-describe('Render components', () => {
+describe('Render HomePage component', () => {
   test('render HomePage', () => {
     const tree = renderer
       .create(

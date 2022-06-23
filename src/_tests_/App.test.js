@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 import store from "../Redux/store";
 import App from "../App";
 
-describe('test App component', () => {
+describe('test App components', () => {
   test('renders', () => {
     const tree = render(
       <Provider store={store}>
