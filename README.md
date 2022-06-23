@@ -2,7 +2,7 @@
 
 # Project Name
 
-> This is an application that displays a list of Covid Data generated for the african continent from an API.
+This is an application that displays a list of Covid Data generated for the african continent from an API.
 
 
 ## Built With
