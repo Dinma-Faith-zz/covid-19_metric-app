@@ -2,17 +2,11 @@
 
 # Project Name
 
-<<<<<<< HEAD
 - This is an application that displays a list of Covid Data generated for the african continent from an API.
 
 ## Video Presentation
 
 [Presentation](https://www.loom.com/share/bb3c405e43ce48228658dd2b115c6e24)
-
-=======
-This is an application that displays a list of Covid Data generated for the african continent from an API.
->>>>>>> af4d69a1e3c47eece0acda1b4f964058da8c6da0
-
 
 ## Built With
 
@@ -21,8 +15,7 @@ This is an application that displays a list of Covid Data generated for the afri
 
 ## Live Demo
 
-[Live Demo Link](https://62b45a342c11d41099509ed1--dinma-faith-makes-great-sites.
-netlify.app/)
+[Live Demo Link](https://dinma-faith-makes-great-sites.netlify.app/)
 
 ## Getting Started
 
